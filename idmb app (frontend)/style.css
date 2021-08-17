@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.container h2 {
+    background: #0062cc;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 38px;
+}
+
+.container h2::after {
+    content: '';
+    border-top: 39px solid #0062cc;
+    border-right: 40px solid transparent;
+    position: relative;
+    left: 20px;
+    top: 34px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.product-bottom h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
